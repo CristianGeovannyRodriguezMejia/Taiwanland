@@ -1,5 +1,6 @@
 import './App.css'
 import { Flex } from './components/1componente.tsx'
+import { Grip } from './components/2componente.tsx'
 function App() {
 
 
@@ -10,6 +11,7 @@ function App() {
       <button className='bg-sky-700 px-4 py-2 rounded text-white hover:bg-sky-800'>Enviar</button>
     </div>
     <Flex />
+    <Grip />
     </>
   )
 }
